@@ -14,6 +14,14 @@ Use the full `youngminnnn/tap/wooi` name. Homebrew 6 refuses to load casks from
 third-party taps unless you name the tap or cask on the command line, so the
 short `brew install --cask wooi` needs `brew trust youngminnnn/tap` first.
 
+Already installed Wooi from the `.dmg`? Homebrew won't take over an app it
+didn't put there. Add `--adopt` to hand the existing copy over instead of
+replacing it — any version works, and the app on disk is left as it is:
+
+```sh
+brew install --cask --adopt youngminnnn/tap/wooi
+```
+
 ## Don't edit `Casks/wooi.rb` here
 
 It is generated on every release by the `homebrew-tap` job in
