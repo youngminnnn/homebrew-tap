@@ -10,6 +10,10 @@ brew install --cask youngminnnn/tap/wooi
 Apple Silicon, macOS 12 (Monterey) or later. The build is signed and notarized
 with an Apple Developer ID.
 
+Use the full `youngminnnn/tap/wooi` name. Homebrew 6 refuses to load casks from
+third-party taps unless you name the tap or cask on the command line, so the
+short `brew install --cask wooi` needs `brew trust youngminnnn/tap` first.
+
 ## Don't edit `Casks/wooi.rb` here
 
 It is generated on every release by the `homebrew-tap` job in
