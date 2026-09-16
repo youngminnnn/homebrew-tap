@@ -8,8 +8,8 @@
 #
 # Install: brew install --cask youngminnnn/tap/wooi
 cask "wooi" do
-  version "1.32.0"
-  sha256 "985f574cfe73b96be28484efc65a6688176aea7c30cc46c50970370d7e3bddf9"
+  version "1.32.1"
+  sha256 "f540a87c94c1cd9fac6bb370fd54ef81830c9a556aae7d812e0030b41bf00d10"
 
   url "https://github.com/youngminnnn/wooi/releases/download/v#{version}/Wooi-arm64.dmg"
   name "Wooi"
